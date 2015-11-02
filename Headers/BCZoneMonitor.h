@@ -24,7 +24,8 @@
 - (void)startMonitoringZones;
 - (void)stopMonitoringZones;
 
-- (void)resumeMonitoringZones;
+- (void)resumeMonitoringZonesInAllSites;
+- (void)suspendMonitoringZonesInAllSites;
 
 @end
 

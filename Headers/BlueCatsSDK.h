@@ -59,6 +59,8 @@ extern NSString * const BCOptionMonitorBlueCatsRegionOnStartup;
 extern NSString * const BCOptionMonitorAllAvailableRegionsOnStartup;
 extern NSString * const BCOptionUseEnergySaverScanStrategy;
 extern NSString * const BCOptionScanInBackground;
+extern NSString * const BCOptionBackgroundSessionTimeIntervalInSeconds;
+extern NSString * const BCOptionMaximumDailyBackgroundUsageInMinutes;
 extern NSString * const BCOptionCrowdSourceBeaconUpdates;
 extern NSString * const BCOptionUseLocalStorage;
 extern NSString * const BCOptionCacheAllBeaconsForApp;

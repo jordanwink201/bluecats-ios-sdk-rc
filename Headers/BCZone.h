@@ -8,12 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, BCZoneScope) {
-    BCZoneScopeAllBeaconsInSite,
-    BCZoneScopeAllBeaconsInCategory,
-    BCZoneScopeAllBeaconsWithZoneIdentifierCustomValue
-};
-
 typedef NS_ENUM(NSInteger, BCZoneState) {
     BCZoneStateUnknown,
     BCZoneStateInside,
@@ -26,7 +20,6 @@ typedef NS_ENUM(NSInteger, BCZoneState) {
 
 @property (nonatomic, copy) NSString *identifier;
 @property (nonatomic, assign) BCZoneState zoneState;
-@property (nonatomic, assign) BCZoneScope zoneScope;
 @property (nonatomic, copy) BCSite* site;
 @property (nonatomic, strong) NSDate* enteredZoneAt;
 @property (nonatomic, strong) NSDate* reenteredZoneAt;
