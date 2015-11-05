@@ -16,6 +16,7 @@ Need some beacons?  Check out the [store](http://store.bluecats.com/collections/
 Add the BlueCatsSDK framework to your Podfile in your Xcode project directory:
 
 ```ruby
+platform :ios, '8.0'
 pod 'BlueCatsSDK', :git => 'https://github.com/bluecats/bluecats-ios-sdk.git'
 ```
 
@@ -49,6 +50,7 @@ The BlueCatsSDK static library is installed using CocoaPods.  CocoaPods is an Ob
 Add the BlueCatsSDK static library dependency to your Podfile in your Xcode project directory:
 
 ```ruby
+platform :ios, '7.0'
 pod 'libBlueCatsSDK', :git => 'https://github.com/bluecats/bluecats-ios-sdk.git'
 ```
 
