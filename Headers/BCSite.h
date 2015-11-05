@@ -18,7 +18,7 @@ typedef enum {
     BCSiteStateOutside,
 } BCSiteState;
 
-@class CLLocation, BCAddress, BCSiteAccessType, BCSiteType;
+@class CLLocation, BCAddress, BCSiteAccessType;
 
 @interface BCSite : BCJSONModel<NSCopying, BCBeaconDataSource, BCCategoryDataSource, BCCustomValueDataSource>
 

@@ -1,12 +1,51 @@
 //
-//  BlueCats.h
+//  BlueCatsBlueCatsSDK.h
 //  BlueCatsSDK
 //
 //  Created by Cody Singleton on 2/13/13.
 //  Copyright (c) 2013 Bluecats. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
+//! Project version number for BlueCatsSDK.
+FOUNDATION_EXPORT double BlueCatsVersionNumber;
+
+//! Project version string for BlueCatsBlueCatsSDK.
+FOUNDATION_EXPORT const unsigned char BlueCatsBlueCatsSDKVersionString[];
+
+
+#import "BCZone.h"
+#import "BCZoneMonitor.h"
+#import "BCTrigger.h"
+#import "BCTriggeredEvent.h"
+#import "BCSite.h"
+#import "BCResource.h"
+#import "BCPoint.h"
+#import "BCMicroLocationManager.h"
+#import "BCMicroLocation.h"
+#import "BCMapPoint.h"
+#import "BCMap.h"
+#import "BCLocalNotification.h"
+#import "BCLocalNotificationManager.h"
+#import "BCJSONModel.h"
+#import "BCJSONModel+BCCustomValueDataSource.h"
+#import "BCCategoryDataSource.h"
+#import "BCBeaconRegionVisit.h"
+#import "BCBeaconDataSource.h"
+#import "BCBeacon.h"
 #import "BCApp.h"
+#import "BCAddress.h"
+#import "BCLassoManager.h"
+#import "BCLasso.h"
+#import "BCEventManager.h"
+#import "BCEventFilterContext.h"
+#import "BCEventFilter.h"
+#import "BCEvent.h"
+#import "BCCustomValue.h"
+#import "BCCategory.h"
+#import "BCBeaconVisit.h"
+#import "BCDefinitions.h"
 
 typedef NS_ENUM(int, BCStatus) {
     kBCStatusNeverPurred = 0,
