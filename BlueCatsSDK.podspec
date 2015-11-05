@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.summary  = 'BlueCatsSDK for micro-location.'
   s.homepage = 'http://www.bluecats.com'
   s.authors   = { 'BlueCats' => 'theteam@bluecats.com' }
-  s.source   = { :git => 'https://bluecats.unfuddle.com/git/bluecats_bcsdk-ios7-compiled/' }
+  s.source   = { :git => 'https://github.com/bluecats/bluecats-ios-sdk-rc.git', :tag => s.version }
   s.platform = :ios
   s.resource = 'BlueCatsSDK.framework'
   s.requires_arc = true
