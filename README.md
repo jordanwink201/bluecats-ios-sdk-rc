@@ -3,7 +3,11 @@ bluecats-ios-sdk-rc
 
 bluecats-ios-sdk-rc contains the BlueCatsSDK framework and static library. You must specify `libBlueCatsSDK` in your Podfile to use the static library.  
 
-Which one should I use?  While using the framework is generally recommended, if developing for iOS7 devices use the static library.  If developing apps that require using bitcode, use the framework.
+Which one should I use?  While using the framework is generally recommended, if developing for iOS7 devices use the static library.  Use the framework if developing apps that require using bitcode.
+
+###**The BlueCats iOS SDK documentation is located [here](https://github.com/bluecats/bluecats-ios-sdk/wiki).**
+
+Need some beacons?  Check out the [store](http://store.bluecats.com/collections/featured-products/products/bluecats-starterpack-with-usb) for a StarterPack or email our [sales team](mailto:sales@bluecats.com).
 
 ##Framework Installation
 
@@ -34,7 +38,7 @@ $ pod update
 
 ###Importing the Framework Into Your Project
 
-If using Objective-C, use `#import <BlueCatsSDK/BlueCatsSDK.h>` to import the SDK's headers into your project.
+If using Objective-C, use `#import "BlueCatsSDK.h"` to import the SDK's headers into your project.
 
 If using Swift, you must create a bridging header to import the framework into your project. Please see the instructions below.
 
@@ -61,6 +65,11 @@ $ pod update
 ```
 
 ###Swift Bridging Header
-To import the BlueCatsSDK into a Swift project, you must create a bridging header.  
- 1. Create a new header file and add `#import "BlueCatsSDK.h"`.
- 2. You must include the bridging header in your target's build settings.  Search for "Bridging Header" in build settings and set it to `${PROJECT_NAME}/Your-Bridging-Header.h`.
+To import the BlueCatsSDK into a Swift project add `#import "BlueCatsSDK.h"` to your bridging header.
+
+## Have a Question?
+
+* If you've found a bug, open an issue.
+* If you have a general question, please see our [support center](support.bluecats.com) for articles on our platform and beacons.
+* If you want a particular feature, open an issue.
+* If taking a look at our SDK for the first time, please see our [iOS SDK documentation](https://github.com/bluecats/bluecats-ios-sdk/wiki).
