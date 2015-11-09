@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'libBlueCatsSDK'
-  s.version  = '0.7.0.rc.2'
+  s.version  = '0.7.0.rc.3'
   s.license      = {
     :type => 'Commercial',
     :text => <<-LICENSE
@@ -21,7 +21,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
   s.frameworks = 'SystemConfiguration', 'CoreBluetooth', 'MobileCoreServices', 'CoreGraphics', 'CoreLocation', 'AdSupport', 'CoreData'
-  
-  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/libBlueCatsSDK/"' }
 
 end

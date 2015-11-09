@@ -11,8 +11,8 @@
 //! Project version number for BlueCatsSDK.
 FOUNDATION_EXPORT double BlueCatsVersionNumber;
 
-//! Project version string for BlueCatsBlueCatsSDK.
-FOUNDATION_EXPORT const unsigned char BlueCatsBlueCatsSDKVersionString[];
+//! Project version string for BlueCatsSDK.
+FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
 
 
 #import "BCZone.h"
@@ -46,19 +46,6 @@ FOUNDATION_EXPORT const unsigned char BlueCatsBlueCatsSDKVersionString[];
 #import "BCCategory.h"
 #import "BCBeaconVisit.h"
 #import "BCDefinitions.h"
-
-typedef NS_ENUM(int, BCStatus) {
-    kBCStatusNeverPurred = 0,
-    kBCStatusPurring,
-    kBCStatusPurringWithErrors
-};
-
-typedef NS_ENUM(int, BCAppTokenVerificationStatus) {
-    kBCAppTokenVerificationStatusNotProvided = 0,
-    kBCAppTokenVerificationStatusNotVerified,
-    kBCAppTokenVerificationStatusVerified,
-    kBCAppTokenVerificationStatusInvalid
-};
 
 @interface BlueCatsSDK : NSObject
 
