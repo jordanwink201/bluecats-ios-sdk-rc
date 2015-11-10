@@ -1,10 +1,6 @@
 BlueCats SDK for iOS Release Candidate
 ================
 
-####bluecats-ios-sdk-rc contains the release candidate for the BlueCats iOS SDK.
-
-================
-
 bluecats-ios-sdk-rc contains the BlueCatsSDK as a framework and a static library. You must specify `libBlueCatsSDK` in your Podfile to use the static library.  
 
 Which one should I use?  While using the framework is generally recommended, if developing for iOS 7.0 devices use the static library.  Use the framework if developing apps targeting iOS 8.0 and later.
