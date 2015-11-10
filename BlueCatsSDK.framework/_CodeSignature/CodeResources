@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/BCBeacon.h</key>
 		<data>
-		L/XjeF3BllBDu8WjFbVRFPvo5SY=
+		K6rqcWOV9sfzwZOn5tqq20AUFNc=
 		</data>
 		<key>Headers/BCBeaconDataSource.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/BCCategory.h</key>
 		<data>
-		65n+r2Chyg7Vt4IghoXuMXo771w=
+		VosBeOSNJPn5TEiSJvfxXvKfMRg=
 		</data>
 		<key>Headers/BCCategoryDataSource.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/BCDefinitions.h</key>
 		<data>
-		bN8ac9NkinTTgomd+5P953S6VuI=
+		sWokHg73/N9cFyzMBb4XQAeV5jg=
 		</data>
 		<key>Headers/BCEvent.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/BCSite.h</key>
 		<data>
-		3NuKObFsPHpspo41J4ijEANlKbo=
+		FE9myEnJCPtcnzAXv9JB+sYhibE=
 		</data>
 		<key>Headers/BCTrigger.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Headers/BCZone.h</key>
 		<data>
-		9XlVk0onvPF71mFOlX7EmDVTEWw=
+		gWSr7KR8aSxZL+ldXHzASbdAn2s=
 		</data>
 		<key>Headers/BCZoneMonitor.h</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Headers/BlueCatsSDK.h</key>
 		<data>
-		YjPQ8EfXori8dICxSs/nhUBfzKI=
+		M6fhQYn32T3UYJLXP/zPsJHtPVQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		25mFzPmHK6+5nZrU/YaF6N2XGzY=
+		SoiRXRjKXz+6zrBgOLEXx20Wbew=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -153,7 +153,7 @@
 		</data>
 		<key>Headers/BCBeacon.h</key>
 		<data>
-		L/XjeF3BllBDu8WjFbVRFPvo5SY=
+		K6rqcWOV9sfzwZOn5tqq20AUFNc=
 		</data>
 		<key>Headers/BCBeaconDataSource.h</key>
 		<data>
@@ -169,7 +169,7 @@
 		</data>
 		<key>Headers/BCCategory.h</key>
 		<data>
-		65n+r2Chyg7Vt4IghoXuMXo771w=
+		VosBeOSNJPn5TEiSJvfxXvKfMRg=
 		</data>
 		<key>Headers/BCCategoryDataSource.h</key>
 		<data>
@@ -181,7 +181,7 @@
 		</data>
 		<key>Headers/BCDefinitions.h</key>
 		<data>
-		bN8ac9NkinTTgomd+5P953S6VuI=
+		sWokHg73/N9cFyzMBb4XQAeV5jg=
 		</data>
 		<key>Headers/BCEvent.h</key>
 		<data>
@@ -249,7 +249,7 @@
 		</data>
 		<key>Headers/BCSite.h</key>
 		<data>
-		3NuKObFsPHpspo41J4ijEANlKbo=
+		FE9myEnJCPtcnzAXv9JB+sYhibE=
 		</data>
 		<key>Headers/BCTrigger.h</key>
 		<data>
@@ -261,7 +261,7 @@
 		</data>
 		<key>Headers/BCZone.h</key>
 		<data>
-		9XlVk0onvPF71mFOlX7EmDVTEWw=
+		gWSr7KR8aSxZL+ldXHzASbdAn2s=
 		</data>
 		<key>Headers/BCZoneMonitor.h</key>
 		<data>
@@ -269,7 +269,7 @@
 		</data>
 		<key>Headers/BlueCatsSDK.h</key>
 		<data>
-		YjPQ8EfXori8dICxSs/nhUBfzKI=
+		M6fhQYn32T3UYJLXP/zPsJHtPVQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

@@ -6,10 +6,14 @@
 //  Copyright (c) 2013 Bluecats. All rights reserved.
 //
 
-#import "BCDefinitions.h"
+#import "BCJSONModel.h"
 #import "BCJSONModel+BCCustomValueDataSource.h"
 
-
+typedef enum BCCategoryType {
+    BCCategoryTypeUnknown = 0,
+    BCCategoryTypeBlueCats = 1,
+    BCCategoryTypeTeam = 2
+} BCCategoryType;
 
 @interface BCCategory : BCJSONModel <NSCopying, BCCustomValueDataSource>
 

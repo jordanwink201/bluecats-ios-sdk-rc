@@ -6,10 +6,17 @@
 //  Copyright (c) 2013 Bluecats. All rights reserved.
 //
 
+#import "BCJSONModel.h"
 #import "BCBeaconDataSource.h"
 #import "BCCategoryDataSource.h"
-#import "BCDefinitions.h"
 #import "BCJSONModel+BCCustomValueDataSource.h"
+#import "BCDefinitions.h"
+
+typedef enum {
+    BCSiteStateUnknown = 0,
+    BCSiteStateInside,
+    BCSiteStateOutside,
+} BCSiteState;
 
 @class CLLocation, BCAddress, BCSiteAccessType;
 

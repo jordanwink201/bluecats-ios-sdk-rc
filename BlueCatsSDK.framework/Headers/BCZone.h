@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BCDefinitions.h"
+
+typedef NS_ENUM(NSInteger, BCZoneState) {
+    BCZoneStateUnknown,
+    BCZoneStateInside,
+    BCZoneStateOutside
+};
 
 @class BCSite;
 

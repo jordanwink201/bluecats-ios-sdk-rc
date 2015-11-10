@@ -6,8 +6,64 @@
 //  Copyright (c) 2013 Bluecats. All rights reserved.
 //
 
-#import "BCDefinitions.h"
+#import "BCJSONModel.h"
 #import "BCJSONModel+BCCustomValueDataSource.h"
+#import "BCDefinitions.h"
+
+typedef enum {
+	BCProximityUnknown = 0,
+	BCProximityImmediate,
+	BCProximityNear,
+	BCProximityFar
+} BCProximity;
+
+typedef enum {
+    BCBlueCatsAdDataTypeUnknown = 0,
+    BCBlueCatsAdDataTypeSphynx1 = 1,
+    BCBlueCatsAdDataTypeIBeacon2 = 2,
+    BCBlueCatsAdDataTypeIBeacon3 = 3,
+    BCBlueCatsAdDataTypeSecure1 = 4,
+    BCBlueCatsAdDataTypeIBeacon4 = 5,
+    BCBlueCatsAdDataTypeSecure2 = 6,
+    BCBlueCatsAdDataTypeData1 = 7,
+    BCBlueCatsAdDataTypeData2 = 8
+} BCBlueCatsAdDataType;
+
+typedef enum {
+    BCVerificationStatusNotVerified = 0,
+    BCVerificationStatusDetectedAttack,
+    BCVerificationStatusVerifiedViaBlueCatsIBeaconAd,
+    BCVerificationStatusVerifiedViaBueCatsSecureAd
+} BCVerificationStatus;
+
+typedef enum {
+    BCBlockDataEncodingNone = 0,
+    BCBlockDataEncodingUTF8,
+    BCBlockDataEncodingJSON
+} BCBlockDataEncoding;
+
+typedef enum {
+    BCBlockDataTypeCustom = 0,
+    BCBlockDataTypeTemperature = 15
+} BCBlockDataType;
+
+typedef enum {
+    BCBeaconEndpointUSBHost = 0
+} BCBeaconEndpoint;
+
+typedef enum {
+    BCBeaconOwnershipUnknown = 0,
+    BCBeaconOwnershipOwned = 1,
+    BCBeaconOwnershipShared = 2,
+    BCBeaconOwnershipPublic = 3
+} BCBeaconOwnership;
+
+typedef enum {
+    BCBeaconAccessRoleVisitTracker = 1,
+    BCBeaconAccessRoleBeaconRanger = 2,
+    BCBeaconAccessRoleSettingsUpdater = 3
+} BCBeaconAccessRole;
+
 
 @class BCBatteryStatus, BCBeaconLoudness, BCTargetSpeed, BCMapPoint, BCBeaconRegion, BCBeaconMode, BCBeaconVersion, BCBeaconVisit, BCNetworkAccess,BCNetworkAccessRole,BCNetworkAccessOwnership;
 

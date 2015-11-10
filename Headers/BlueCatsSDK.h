@@ -79,6 +79,7 @@ FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
 
 @end
 
+extern NSString * const BCOptionApiBaseURL;
 extern NSString * const BCOptionUseStageApi;
 extern NSString * const BCOptionTrackBeaconVisits;
 extern NSString * const BCOptionMonitorBlueCatsRegionOnStartup;

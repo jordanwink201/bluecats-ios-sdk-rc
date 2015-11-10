@@ -11,41 +11,54 @@
 //! Project version number for BlueCatsSDK.
 FOUNDATION_EXPORT double BlueCatsVersionNumber;
 
-//! Project version string for BlueCatsSDK.
-FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
+//! Project version string for BlueCatsBlueCatsSDK.
+FOUNDATION_EXPORT const unsigned char BlueCatsBlueCatsSDKVersionString[];
 
 
-#import "BCZone.h"
-#import "BCZoneMonitor.h"
-#import "BCTrigger.h"
-#import "BCTriggeredEvent.h"
-#import "BCSite.h"
-#import "BCResource.h"
-#import "BCPoint.h"
-#import "BCMicroLocationManager.h"
-#import "BCMicroLocation.h"
-#import "BCMapPoint.h"
-#import "BCMap.h"
-#import "BCLocalNotification.h"
-#import "BCLocalNotificationManager.h"
-#import "BCJSONModel.h"
-#import "BCJSONModel+BCCustomValueDataSource.h"
-#import "BCCategoryDataSource.h"
-#import "BCBeaconRegionVisit.h"
-#import "BCBeaconDataSource.h"
-#import "BCBeacon.h"
-#import "BCApp.h"
-#import "BCAddress.h"
-#import "BCLassoManager.h"
-#import "BCLasso.h"
-#import "BCEventManager.h"
-#import "BCEventFilterContext.h"
-#import "BCEventFilter.h"
-#import "BCEvent.h"
-#import "BCCustomValue.h"
-#import "BCCategory.h"
-#import "BCBeaconVisit.h"
-#import "BCDefinitions.h"
+#import <BlueCatsSDK/BCZone.h>
+#import <BlueCatsSDK/BCZoneMonitor.h>
+#import <BlueCatsSDK/BCTrigger.h>
+#import <BlueCatsSDK/BCTriggeredEvent.h>
+#import <BlueCatsSDK/BCSite.h>
+#import <BlueCatsSDK/BCResource.h>
+#import <BlueCatsSDK/BCPoint.h>
+#import <BlueCatsSDK/BCMicroLocationManager.h>
+#import <BlueCatsSDK/BCMicroLocation.h>
+#import <BlueCatsSDK/BCMapPoint.h>
+#import <BlueCatsSDK/BCMap.h>
+#import <BlueCatsSDK/BCLocalNotification.h>
+#import <BlueCatsSDK/BCLocalNotificationManager.h>
+#import <BlueCatsSDK/BCJSONModel.h>
+#import <BlueCatsSDK/BCJSONModel+BCCustomValueDataSource.h>
+#import <BlueCatsSDK/BCCategoryDataSource.h>
+#import <BlueCatsSDK/BCBeaconRegionVisit.h>
+#import <BlueCatsSDK/BCBeaconDataSource.h>
+#import <BlueCatsSDK/BCBeacon.h>
+#import <BlueCatsSDK/BCApp.h>
+#import <BlueCatsSDK/BCAddress.h>
+#import <BlueCatsSDK/BCLassoManager.h>
+#import <BlueCatsSDK/BCLasso.h>
+#import <BlueCatsSDK/BCEventManager.h>
+#import <BlueCatsSDK/BCEventFilterContext.h>
+#import <BlueCatsSDK/BCEventFilter.h>
+#import <BlueCatsSDK/BCEvent.h>
+#import <BlueCatsSDK/BCCustomValue.h>
+#import <BlueCatsSDK/BCCategory.h>
+#import <BlueCatsSDK/BCBeaconVisit.h>
+#import <BlueCatsSDK/BCDefinitions.h>
+
+typedef NS_ENUM(int, BCStatus) {
+    kBCStatusNeverPurred = 0,
+    kBCStatusPurring,
+    kBCStatusPurringWithErrors
+};
+
+typedef NS_ENUM(int, BCAppTokenVerificationStatus) {
+    kBCAppTokenVerificationStatusNotProvided = 0,
+    kBCAppTokenVerificationStatusNotVerified,
+    kBCAppTokenVerificationStatusVerified,
+    kBCAppTokenVerificationStatusInvalid
+};
 
 @interface BlueCatsSDK : NSObject
 
