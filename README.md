@@ -13,7 +13,7 @@ Need some beacons?  Check out the [store](http://store.bluecats.com/collections/
 
 ###With CocoaPods
 
-CocoaPods is an Objective-C library dependency manager. You can learn more about CocoaPods from [http://cocoapods.org](http://cocoapods.org/).
+CocoaPods is an Objective-C library dependency manager. You can learn more about CocoaPods from [cocoapods.org](http://cocoapods.org).
 
 Add the BlueCatsSDK framework to your Podfile in your Xcode project directory:
 
@@ -47,7 +47,7 @@ If using Swift, import the framework into your project by adding `#import "BlueC
 
 ##Static Library Installation
 
-The BlueCatsSDK static library is installed using CocoaPods.  CocoaPods is an Objective-C library dependency manager. You can learn more about CocoaPods from [http://cocoapods.org].
+The BlueCatsSDK static library is installed using CocoaPods.  CocoaPods is an Objective-C library dependency manager. You can learn more about CocoaPods from [cocoapods.org](http://cocoapods.org).
 
 Add the BlueCatsSDK static library dependency to your Podfile in your Xcode project directory:
 
