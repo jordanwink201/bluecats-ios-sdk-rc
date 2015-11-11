@@ -1,7 +1,11 @@
-bluecats-ios-sdk-rc
+BlueCats SDK for iOS Release Candidate
 ================
 
-bluecats-ios-sdk-rc contains the BlueCatsSDK framework and static library. You must specify `libBlueCatsSDK` in your Podfile to use the static library.  
+####bluecats-ios-sdk-rc contains the release candidate for the BlueCats iOS SDK.
+
+================
+
+bluecats-ios-sdk-rc contains the BlueCatsSDK as a framework and a static library. You must specify `libBlueCatsSDK` in your Podfile to use the static library.  
 
 Which one should I use?  While using the framework is generally recommended, if developing for iOS 7.0 devices use the static library.  Use the framework if developing apps targeting iOS 8.0 and later.
 
@@ -12,6 +16,8 @@ Need some beacons?  Check out the [store](http://store.bluecats.com/collections/
 ##Framework Installation
 
 ###With CocoaPods
+
+CocoaPods is an Objective-C library dependency manager. You can learn more about CocoaPods from [http://cocoapods.org](http://cocoapods.org/).
 
 Add the BlueCatsSDK framework to your Podfile in your Xcode project directory:
 
@@ -41,7 +47,7 @@ $ pod update
 
 If using Objective-C, use `#import "BlueCatsSDK.h"` to import the SDK's headers into your project.
 
-If using Swift, you must create a bridging header to import the framework into your project. Please see the instructions below.
+If using Swift, import the framework into your project by adding `#import "BlueCatsSDK.h"` into your bridging header.
 
 ##Static Library Installation
 
