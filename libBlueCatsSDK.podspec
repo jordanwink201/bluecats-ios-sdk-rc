@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'libBlueCatsSDK'
-  s.version  = '0.7.1'
+  s.version  = '0.7.2'
   s.license      = {
     :type => 'Commercial',
     :text => <<-LICENSE

@@ -64,7 +64,7 @@ typedef NS_ENUM(NSUInteger, BCBlockDataType) {
 };
 
 typedef NS_ENUM(NSUInteger, BCBeaconEndpoint) {
-    BCBeaconEndpointUSBHost = 0
+    BCBeaconEndpointSerial = 0
 };
 
 typedef NS_ENUM(NSUInteger, BCBeaconOwnership) {

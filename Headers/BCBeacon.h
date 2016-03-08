@@ -9,6 +9,7 @@
 #import "BCDefinitions.h"
 #import "BCJSONModel+BCCustomValueDataSource.h"
 
+
 @class BCBatteryStatus, BCBeaconLoudness, BCTargetSpeed, BCMapPoint, BCBeaconRegion, BCBeaconMode, BCBeaconVersion, BCBeaconVisit, BCNetworkAccess,BCNetworkAccessRole,BCNetworkAccessOwnership;
 
 @interface BCBeacon : BCJSONModel <NSCopying, BCCustomValueDataSource>
@@ -80,11 +81,17 @@
 - (NSArray *)reassembledBlockDataWithDataType:(BCBlockDataType)dataType;
 - (NSDictionary *)lastReassembledBlockDataWithDataType:(BCBlockDataType)dataType;
 
-- (void)requestDataFromBeaconEndpoint:(BCBeaconEndpoint)endpoint
-                             withData:(NSData *)data
-                              success:(void (^)(NSData *responseData))success
-                               status:(void (^)(NSString *status))status
-                              failure:(void (^)(NSError *error))failure;
+- (void)sendDataRequest:(NSData *)requestData
+       toBeaconEndpoint:(BCBeaconEndpoint)endpoint
+                success:(void (^)(NSData *responseData))success
+                 status:(void (^)(NSString *status))status
+                failure:(void (^)(NSError *error))failure;
+
+- (void)transportDataRequest:(NSData *)requestData
+            toBeaconEndpoint:(BCBeaconEndpoint)endpoint
+                     success:(void (^)(NSData *responseData))success
+                      status:(void (^)(NSString *status))status
+                     failure:(void (^)(NSError *error))failure;
 
 - (void)numberOfVisitsTodayWithSuccess:(void (^)(NSUInteger visitCount))success
                                failure:(void (^)(NSError *error))failure;
