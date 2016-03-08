@@ -80,11 +80,11 @@
 - (NSArray *)reassembledBlockDataWithDataType:(BCBlockDataType)dataType;
 - (NSDictionary *)lastReassembledBlockDataWithDataType:(BCBlockDataType)dataType;
 
-- (void)requestDataArrayFromBeaconEndpoint:(BCBeaconEndpoint)endpoint
-                             withDataArray:(NSArray *)requestDataArray
-                                   success:(void (^)(NSArray *responseDataArray))success
-                                    status:(void (^)(NSString *status))status
-                                   failure:(void (^)(NSError *error))failure;
+- (void)requestDataFromBeaconEndpoint:(BCBeaconEndpoint)endpoint
+                             withData:(NSData *)data
+                              success:(void (^)(NSData *responseData))success
+                               status:(void (^)(NSString *status))status
+                              failure:(void (^)(NSError *error))failure;
 
 - (void)numberOfVisitsTodayWithSuccess:(void (^)(NSUInteger visitCount))success
                                failure:(void (^)(NSError *error))failure;

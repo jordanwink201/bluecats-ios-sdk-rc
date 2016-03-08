@@ -42,6 +42,7 @@
 - (void)zoneMonitor:(BCZoneMonitor *)monitor didRangeBeacons:(NSArray *)beacons inZone:(BCZone *)zone;
 - (void)zoneMonitor:(BCZoneMonitor *)monitor didDwellInZone:(BCZone *)zone forTimeInterval:(NSTimeInterval)dwellTimeInterval;
 - (void)zoneMonitor:(BCZoneMonitor *)monitor didExitZone:(BCZone *)zone;
+- (void)zoneMonitor:(BCZoneMonitor *)monitor inZone:(BCZone *)zone afterTime:(NSTimeInterval)timeInterval forRange:(NSRange)timeRange;
 
 - (void)zoneMonitor:(BCZoneMonitor *)monitor willSuspendMonitoringInSite:(BCSite *)site untilDate:(NSDate *)date;
 - (void)zoneMonitor:(BCZoneMonitor *)monitor willResumeMonitoringInSite:(BCSite *)site;
