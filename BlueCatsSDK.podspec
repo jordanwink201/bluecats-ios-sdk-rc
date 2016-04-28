@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name     = 'BlueCatsSDK'
-  s.version  = '0.7.2'
+  s.version  = '2.0.0.rc.1'
   s.license      = {
     :type => 'Commercial',
     :text => <<-LICENSE
-              All text and design is copyright © 2011-2014 Plus Location Systems, LLC.
+              All text and design is copyright © 2011-2015 Plus Location Systems, LLC.
 
               All rights reserved.
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.summary  = 'BlueCatsSDK for micro-location.'
   s.homepage = 'http://www.bluecats.com'
   s.authors   = { 'BlueCats' => 'theteam@bluecats.com' }
-  s.source   = { :git => 'https://github.com/bluecats/bluecats-ios-sdk-rc.git', :tag => s.version }
+  s.source   = { :git => 'https://github.com/bluecats/bluecats-ios-sdk-rc.git'}
   s.platform = :ios
   s.resource = 'BlueCatsSDK.framework'
   s.requires_arc = true

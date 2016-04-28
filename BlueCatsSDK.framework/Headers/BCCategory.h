@@ -6,49 +6,29 @@
 //  Copyright (c) 2013 Bluecats. All rights reserved.
 //
 
+#import "BCJSONModel.h"
 #import "BCDefinitions.h"
-#import "BCJSONModel+BCCustomValueDataSource.h"
 
+///The `BCCategory` class defines an object that represents a tag that can be used to group beacons within a site under a common heading.  Categories can carry custom values, define zones, and trigger events.
+@interface BCCategory : BCJSONModel <NSCopying>
 
+///@name General Properties
 
-@interface BCCategory : BCJSONModel <NSCopying, BCCustomValueDataSource>
-
+///The resource ID.
 @property (nonatomic, copy) NSString *categoryID;
+///The category name.
 @property (nonatomic, copy) NSString *name;
-@property (nonatomic, copy) NSNumber *categoryTypeID;
-@property (nonatomic, copy) NSString *teamID;
+///The `BCCategoryType`.
 @property (nonatomic, assign) BCCategoryType categoryType;
-@property (nonatomic, copy) NSArray *customValues;
 
-- (void)numberOfVisitsTodayWithSuccess:(void (^)(NSUInteger visitCount))success
-                               failure:(void (^)(NSError *error))failure;
+///@name Context Properties
 
-- (void)numberOfVisitsYesterdayWithSuccess:(void (^)(NSUInteger visitCount))success
-                                   failure:(void (^)(NSError *error))failure;
+///The dictionary containing the beacon's custom values.
+@property (nonatomic, copy, readonly) NSDictionary *customValueForKey;
 
-- (void)numberOfVisitsThisWeekWithSuccess:(void (^)(NSUInteger visitCount))success
-                                  failure:(void (^)(NSError *error))failure;
+///@name Organizational properties
 
-- (void)numberOfVisitsLastWeekWithSuccess:(void (^)(NSUInteger visitCount))success
-                                  failure:(void (^)(NSError *error))failure;
-
-- (void)numberOfVisitsThisMonthWithSuccess:(void (^)(NSUInteger visitCount))success
-                                   failure:(void (^)(NSError *error))failure;
-
-- (void)numberOfVisitsLastMonthWithSuccess:(void (^)(NSUInteger visitCount))success
-                                   failure:(void (^)(NSError *error))failure;
-
-- (void)numberOfVisitsSinceDate:(NSDate *)date
-                        success:(void (^)(NSUInteger visitCount))success
-                        failure:(void (^)(NSError *error))failure;
-
-- (void)numberOfVisitsUntilDate:(NSDate *)date
-                        success:(void (^)(NSUInteger visitCount))success
-                        failure:(void (^)(NSError *error))failure;
-
-- (void)numberOfVisitsFromDate:(NSDate *)startDate untilDate:(NSDate *)endDate
-                       success:(void (^)(NSUInteger visitCount))success
-                       failure:(void (^)(NSError *error))failure;
+///The team that the category is within.
+@property (nonatomic, copy) NSString *teamID;
 
 @end
-
