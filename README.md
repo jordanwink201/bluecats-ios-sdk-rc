@@ -20,7 +20,7 @@ Add the BlueCatsSDK framework to your podfile in your Xcode project directory:
 
 ```ruby
 platform :ios, '8.0'
-'BlueCatsSDK', :git => 'https://github.com/bluecats/bluecats-ios-sdk-rc.git'
+pod 'BlueCatsSDK', :git => 'https://github.com/bluecats/bluecats-ios-sdk-rc.git'
 ```
 
 Now you can now install the BlueCatsSDK dependency in your project:
