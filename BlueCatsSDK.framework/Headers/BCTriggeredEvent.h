@@ -26,8 +26,6 @@ typedef enum {
 
 ///@name Event Filter Properties
 
-///The `BCEvent` that fired the `BCTrigger`.
-@property (nonatomic, copy) BCEvent *event;
 ///The filtered `BCMicroLocation` that satisfied the `BCTrigger`.
 @property (nonatomic, copy) BCMicroLocation *filteredMicroLocation;
 ///The current trigger state.  See BCTriggerState.

@@ -264,7 +264,7 @@ typedef NS_ENUM(NSInteger, BCZoneState) {
  */
 typedef NS_ENUM(NSInteger, BCStatus) {
     /**
-     *  The SDK has not been told to startPurring or was purring and told to stopPurring.
+     *  The SDK has not been told to startPurring
      */
             kBCStatusNeverPurred = 0,
     /**
@@ -274,7 +274,11 @@ typedef NS_ENUM(NSInteger, BCStatus) {
     /**
      *  The SDK is purring, but there was an issue. Check the app token and if the SDK has access to its required resources.
      */
-            kBCStatusPurringWithErrors
+            kBCStatusPurringWithErrors,
+    /**
+     *  The SDK has been stopped either explicitly by application code or due to an invalid app token
+     */
+            kBCStatusStopped
 };
 
 /**

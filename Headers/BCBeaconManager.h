@@ -36,7 +36,6 @@
 - (void)beaconManager:(BCBeaconManager *)beaconManager didExitSite:(BCSite *)site;
 - (void)beaconManager:(BCBeaconManager *)beaconManager didDetermineState:(BCSiteState)state forSite:(BCSite *)site;
 
-- (void)beaconManager:(BCBeaconManager *)beaconManager didDetermineState:(BCBeaconState)state forBlueCatsBeacon:(BCBeacon *)beacon;
 - (void)beaconManager:(BCBeaconManager *)beaconManager didRangeBlueCatsBeacons:(NSArray<BCBeacon *> *)blueCatsBeacons;
 
 - (void)beaconManager:(BCBeaconManager *)monitor didRangeNewbornBeacons:(NSArray<BCBeacon *> *)newbornBeacons;
@@ -46,6 +45,7 @@
 
 - (void)beaconManager:(BCBeaconManager *)monitor didEnterBeacons:(NSArray <BCBeacon *> *)beacons;
 - (void)beaconManager:(BCBeaconManager *)monitor didExitBeacons:(NSArray <BCBeacon *> *)beacons;
+- (void)beaconManager:(BCBeaconManager *)beaconManager didDetermineState:(BCBeaconState)state forBeacon:(BCBeacon *)beacon;
 
 - (void)beaconManager:(BCBeaconManager *)monitor didDiscoverEddystoneURL:(NSURL *)eddystoneURL;
 
