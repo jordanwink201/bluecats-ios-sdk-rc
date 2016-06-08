@@ -130,7 +130,7 @@ typedef NS_ENUM(NSUInteger, BCBlueCatsAdDataType) {
     BCBlueCatsAdDataTypeFullSecureEndpoint = 0x0A,
     */
 
-            BCBlueCatsAdDataTypeNewBorn = 0x00
+    BCBlueCatsAdDataTypeNewBorn = 0x00
 };
 
 /**

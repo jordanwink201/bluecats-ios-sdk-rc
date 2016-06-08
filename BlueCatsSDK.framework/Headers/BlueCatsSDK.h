@@ -79,11 +79,14 @@ FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
 
 + (BCApp*)currentApp;
 
++ (NSString *)installationIdentifier;
++ (NSString *)deviceIdentifier;
++ (void)setDeviceIdentifier:(NSString *)deviceIdentifier;
+
 + (void)logEventWithIdentifier:(NSString *)identifier
-                         value:(NSString *)value1
+                         value:(NSString *)value
                          value:(NSString *)value2
                          value:(NSString *)value3;
-
 @end
 
 #pragma mark - BlueCats SDK Options

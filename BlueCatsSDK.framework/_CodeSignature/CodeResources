@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/BCDefinitions.h</key>
 		<data>
-		dqPPIMYLNrMV2c3zQpuXVEfanPg=
+		2TAuNWB7nQvZyXXMV7DvFdPNUto=
 		</data>
 		<key>Headers/BCEddystone.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/BCEvent.h</key>
 		<data>
-		prNz0weRLBo/oiwP5b4Ca6i/Q9U=
+		Mr1DxiFvdOvq7SqwZslPFVg4Qng=
 		</data>
 		<key>Headers/BCEventFilter.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/BCEventManager.h</key>
 		<data>
-		KBdNOG1J85lAxMfKpunzT2ytO4U=
+		OYiQqtuU+kfuXVvlel+/OiOTFUg=
 		</data>
 		<key>Headers/BCJSONModel.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/BCTriggeredEvent.h</key>
 		<data>
-		o51HEGVLCpsgzT+UN7Y3NRILRNM=
+		nDQBibjngVrTsmnd+Yy6ZivoauA=
 		</data>
 		<key>Headers/BCZone.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Headers/BlueCatsSDK.h</key>
 		<data>
-		L6MKllz2gk7fg6/TiMpfF1EOPpw=
+		DoY0AtTYXIJK7qL4aUlWcf7KrLQ=
 		</data>
 		<key>Headers/NSPredicate+BCBeaconFilter.h</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		04RHTlss7vijkwTRHy8T4nRRGkA=
+		T+q4UFMBsqv2etYJ1/SKwLtxERw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -288,11 +288,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dqPPIMYLNrMV2c3zQpuXVEfanPg=
+			2TAuNWB7nQvZyXXMV7DvFdPNUto=
 			</data>
 			<key>hash2</key>
 			<data>
-			ooEdYKflCiXxYL0JgChDPY3BhYltzSRJEolO+onfgWI=
+			46T58uWzIyYhxfpeHoFC6l/1F2Ysscsis1qEPMqZoHM=
 			</data>
 		</dict>
 		<key>Headers/BCEddystone.h</key>
@@ -310,11 +310,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			prNz0weRLBo/oiwP5b4Ca6i/Q9U=
+			Mr1DxiFvdOvq7SqwZslPFVg4Qng=
 			</data>
 			<key>hash2</key>
 			<data>
-			tXeaXVMYgvXLkdZ2enkNsr8kx8NioSe5J5SNVIs9jJA=
+			ibptMzvxoQ9LI9J8dwv+S8JKRmZ8s4c6IWUYX5oqOQQ=
 			</data>
 		</dict>
 		<key>Headers/BCEventFilter.h</key>
@@ -343,11 +343,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KBdNOG1J85lAxMfKpunzT2ytO4U=
+			OYiQqtuU+kfuXVvlel+/OiOTFUg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ds+PpREzM06KIFdf9EE3T7mfeBJdf/ZEj2UUQgXzoV0=
+			EMJwa8X+5xj8jLwvsPV12TJhdqerl6l89IIvvNprY3U=
 			</data>
 		</dict>
 		<key>Headers/BCJSONModel.h</key>
@@ -519,11 +519,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o51HEGVLCpsgzT+UN7Y3NRILRNM=
+			nDQBibjngVrTsmnd+Yy6ZivoauA=
 			</data>
 			<key>hash2</key>
 			<data>
-			e47KcIayaLty/XkoT6obP9i7BlbJpy5c/VrfUgDBL7M=
+			M1PU800X+f3p/yj7OSeKttJPsQCqzgPVsoXvzzrRIjU=
 			</data>
 		</dict>
 		<key>Headers/BCZone.h</key>
@@ -552,11 +552,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L6MKllz2gk7fg6/TiMpfF1EOPpw=
+			DoY0AtTYXIJK7qL4aUlWcf7KrLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qbxtpthRiep3p/M0i33qT30Wd8sSwhjCDn37n5zSjRQ=
+			Rzch+lLIB3w1jXWfZqH3Sqt3CIKDxAOXWlyVdtru8q0=
 			</data>
 		</dict>
 		<key>Headers/NSPredicate+BCBeaconFilter.h</key>

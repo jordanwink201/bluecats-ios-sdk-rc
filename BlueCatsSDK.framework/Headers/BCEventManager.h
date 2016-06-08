@@ -31,6 +31,8 @@ typedef enum {
 ///The delegate object to receive update events.
 @property (nonatomic, weak) NSObject<BCEventManagerDelegate> *delegate;
 
+- (instancetype)initWithDelegate:(id)delegate queue:(dispatch_queue_t)queue;
+
 ///@name Custom Device Identification
 
 ///The default custom device identifier.
