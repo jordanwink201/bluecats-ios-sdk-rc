@@ -128,6 +128,10 @@
 		<data>
 		F8Lb4l/sALlqPoTmDlMYI1xSDqc=
 		</data>
+		<key>Headers/BCTemperatureData.h</key>
+		<data>
+		OHtOaZyRa+T725nSkXnRcmRLM9M=
+		</data>
 		<key>Headers/BCTrigger.h</key>
 		<data>
 		UsU2PuJdAm9A8z1UkYL1Gwqbf4c=
@@ -146,7 +150,7 @@
 		</data>
 		<key>Headers/BlueCatsSDK.h</key>
 		<data>
-		DoY0AtTYXIJK7qL4aUlWcf7KrLQ=
+		aLXnRtwamKFGTFP29zG1JFbN7W4=
 		</data>
 		<key>Headers/NSPredicate+BCBeaconFilter.h</key>
 		<data>
@@ -504,6 +508,17 @@
 			J42yq2SDn4vLPchZUO/AQoVmXIwDhpe2KbE+zH0+UJg=
 			</data>
 		</dict>
+		<key>Headers/BCTemperatureData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OHtOaZyRa+T725nSkXnRcmRLM9M=
+			</data>
+			<key>hash2</key>
+			<data>
+			zY8FyczAPmrjMUXgUKpNOw474ITW5fySvwEAjSKc76Q=
+			</data>
+		</dict>
 		<key>Headers/BCTrigger.h</key>
 		<dict>
 			<key>hash</key>
@@ -552,11 +567,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DoY0AtTYXIJK7qL4aUlWcf7KrLQ=
+			aLXnRtwamKFGTFP29zG1JFbN7W4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rzch+lLIB3w1jXWfZqH3Sqt3CIKDxAOXWlyVdtru8q0=
+			mfSjEHsdI+I+vc96Gyq5ldC8jyu1PHu7E/XOiumhjfY=
 			</data>
 		</dict>
 		<key>Headers/NSPredicate+BCBeaconFilter.h</key>

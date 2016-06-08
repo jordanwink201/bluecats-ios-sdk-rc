@@ -50,6 +50,7 @@ FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
 #import "BCZone.h"
 #import "BCZoneMonitor.h"
 #import "NSPredicate+BCBeaconFilter.h"
+#import "BCTemperatureData.h"
 
 @interface BlueCatsSDK : NSObject
 
