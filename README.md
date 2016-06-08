@@ -6,7 +6,7 @@ The BlueCats iOS SDK release candidate is available as a framework and a static 
 
 Which one should I use?  While using the framework is generally recommended, if developing for iOS 7.0 devices use the static library.  Use the framework if developing apps targeting iOS 8.0 and later or the Apple Watch.
 
-#### The BlueCats iOS SDK documentation is located [here](https://github.com/bluecats/bluecats-ios-sdk/wiki).
+**See the [BlueCats Developer Portal](https://developer.bluecats.com) for SDK documentaiton and getting started guides.**
 
 Need some beacons?  Check out the [store](http://store.bluecats.com/collections/featured-products/products/bluecats-starterpack-with-usb) for a StarterPack or email our [sales team](mailto:sales@bluecats.com).
 
@@ -74,4 +74,4 @@ To import `libBlueCatsSDK` into a Swift project, add `#import "BlueCatsSDK.h"` i
 * If you've found a bug, [open an issue](https://github.com/bluecats/bluecats-ios-sdk/issues).
 * If you have a general question, please see our [developer portal](developer.bluecats.com) and [support center](support.bluecats.com) for articles on our platform and beacons.
 * If you want a particular feature, [open an issue](https://github.com/bluecats/bluecats-ios-sdk/issues).
-* If taking a look at our SDK for the first time, please see our [iOS SDK documentation](https://github.com/bluecats/bluecats-ios-sdk).
+* If taking a look at our SDK for the first time, please see our [iOS SDK documentation](https://developer.bluecats.com).
